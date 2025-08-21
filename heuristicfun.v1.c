@@ -1,5 +1,5 @@
 //heuristic function (version_1)
-int check(char board[][3],int depth){
+int check(char board[][3]){
     for(int i=0;i<3;i++){
     //row & column wise
     if((board[i][0]==board[i][1] && board[i][1]==board[i][2] && board[i][0]=='x')||(board[0][i]==board[1][i] && board[1][i]==board[2][i] && board[0][i]=='x')){
@@ -18,4 +18,5 @@ int check(char board[][3],int depth){
       }
   return 0;
 }
+
 
