@@ -4,7 +4,7 @@ board is a char type 2d array of order 3x3
 move is a struct type variable with 2 int variables within it namely row & col
 
 1.isFull():
-takes board as input
+takes board as input\n
 checks whether empty spaces are available
 returns false if empty spaces are available otherwise returns true
 
