@@ -81,7 +81,7 @@ void input(char board[][3],char ch,char name[]){
     bool input=true;
   while(input){
     printf("%s's turn:",name);
-    scanf("%s",&n);
+    gets(n);
     float num=atof(n);
     if(num && strlen(n)==1){
       float frac=num-floor(num);
@@ -115,7 +115,7 @@ int minimax(char board[][3],char c,int alpha,int beta,int depth){
            int score=minimax(board,(c=='x')?'o':'x',alpha,beta,depth+1);
            board[i][j]='\0';
            bestscore=(c=='x')?((score>bestscore)?score:bestscore):((score<bestscore)?score:bestscore);
-           (c=='x')?(alpha=(alpha>score)?alpha:score):(beta=(beta<score)?beta:score);
+           (c=='x')?(alpha=bestscore):(beta=bestscore);
            if(alpha>=beta){
             goto end;
           }
@@ -232,4 +232,5 @@ if(!strcmp(single,"y")||!strcmp(multi,"y")){
 else{
   printf("Game Ended with no moves played.");
   }
+
 }
