@@ -11,7 +11,7 @@ returns false if empty spaces are available otherwise returns true
 2.check():
 takes board as input,
 checks whether any of the 2 players have won,
-returns +10 if x wins,-10 if o wins,0 otherwise
+returns +10/depth if x wins,-10/depth if o wins,0 otherwise (the reward is discounted by the depth within the game tree at which the game is being evaluated.If the reward is not discounted then the ai prefers to "trap" the opponent rather than winning in the next round.The original heuristic function has been provided in the file heuristicfun.v1 you can replace the heuristic function present in the tictactoe file with this function to see how the ai plays differently.) 
 
 3.grid():
 takes board as input,
