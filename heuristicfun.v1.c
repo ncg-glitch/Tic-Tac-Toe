@@ -1,10 +1,4 @@
-#include<stdio.h>
-
-char board[3][3]={{'o','o','x'},
-                  {'o','x','\0'},
-                  {'o','\0','\0'}};
-                  
-//heuristic function
+//heuristic function (version_1)
 int check(char board[][3],int depth){
     for(int i=0;i<3;i++){
     //row & column wise
@@ -24,3 +18,4 @@ int check(char board[][3],int depth){
       }
   return 0;
 }
+
