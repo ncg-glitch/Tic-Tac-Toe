@@ -35,4 +35,4 @@ selects the best move and initializes the move variable
 
 7.main():
 displays the rules,winner and loser of the game,
-runs any 1 of the 2 game loops within it corresponding to single player and multi player modes respectively 
+runs any of the 2 game loops within it corresponding to single player and multi player modes as per the user's choice
