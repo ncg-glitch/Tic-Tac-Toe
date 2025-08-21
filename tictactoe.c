@@ -232,7 +232,4 @@ if(!strcmp(single,"y")||!strcmp(multi,"y")){
 else{
   printf("Game Ended with no moves played.");
   }
-
 }
-
-
