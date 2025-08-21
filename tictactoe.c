@@ -10,7 +10,7 @@ struct move{
   int row,col;
 }move;
 
-//draw checker
+//checks for empty cells 
 bool isFull(char board[][3]){
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
@@ -234,4 +234,5 @@ else{
   }
 
 }
+
 
