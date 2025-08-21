@@ -30,7 +30,7 @@ returns an int type variable bestscore
 
 6.bestmove():
 takes the board as input, 
-iteratively searches through all empty cells of the board calling the minimax function at each step,
+iteratively searches through all empty cells of the board calling the minimax function at each iteration,
 selects the best move and initializes the move variable
 
 7.main():
