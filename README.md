@@ -1,6 +1,5 @@
 # Tic-Tac-Toe
-Tictactoe game coded in C
-board is a char type 2d array of order 3x3
+board is a char type 2d array of order 3x3,
 move is a struct type variable with 2 int variables within it namely row & col
 
 1.isFull():
