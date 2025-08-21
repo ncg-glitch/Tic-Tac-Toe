@@ -26,7 +26,7 @@ adds valid input to the board
 5.minimax():
 takes multiple inputs,
 recursively searches through the game tree to evaluate a given move,
-returns an int type variable score
+returns an int type variable bestscore
 
 6.bestmove():
 takes the board as input, 
