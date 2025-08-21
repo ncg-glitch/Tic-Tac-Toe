@@ -22,7 +22,7 @@ bool isFull(char board[][3]){
   return true;
 }
 
-//heuristic function
+//heuristic function (version_2)
 int check(char board[][3],int depth){
     for(int i=0;i<3;i++){
     //row & column wise
@@ -234,3 +234,4 @@ else{
   }
 
 }
+
